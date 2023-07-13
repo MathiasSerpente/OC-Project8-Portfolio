@@ -1,0 +1,42 @@
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #323232;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+footer p {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 18px;
+}
+
+footer p span {
+  color: #a088fc;
+}
+
+@media screen and (max-width: 1000px) {
+  footer {
+    padding: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer p {
+    font-size: 12px;
+  }
+}

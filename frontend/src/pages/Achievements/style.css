@@ -1,0 +1,28 @@
+.container-achievements {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+  gap: 50px;
+}
+
+.container-achievements section {
+  width: 100%;
+}
+
+.container-achievements .block-content-container {
+  width: 100%;
+  background-color: #323232;
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  .container-achievements {
+    gap: 20px;
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,147 @@
+.container-home {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+  gap: 50px;
+}
+
+.container-home section {
+  width: 100%;
+}
+
+.container-home .block-content-container {
+  width: 100%;
+  background-color: #323232;
+  color: #fff;
+}
+
+.presentation .block-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.presentation h1 {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 600;
+  border-bottom: solid 3px #9179ef;
+  height: 55px;
+}
+
+.presentation p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.presentation .link-presentation {
+  text-decoration: none;
+  color: #a088fc;
+}
+
+.skills .block-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.skills h2 {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 600;
+  border-bottom: solid 3px #9179ef;
+  height: 55px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tools .block-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tools h2 {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 600;
+  border-bottom: solid 3px #9179ef;
+  height: 55px;
+}
+
+.tools-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+  .container-home {
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .presentation h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .presentation p {
+    font-size: 16px;
+  }
+
+  .skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .tools h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .presentation h1 {
+    font-size: 18px;
+  }
+
+  .presentation p {
+    font-size: 12px;
+  }
+
+  .skills h2 {
+    font-size: 18px;
+  }
+
+  .skills-container {
+    gap: 10px;
+  }
+
+  .tools h2 {
+    font-size: 18px;
+  }
+
+  .tools-container {
+    gap: 10px;
+  }
+}
