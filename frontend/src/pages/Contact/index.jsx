@@ -18,10 +18,10 @@ function Contact() {
           <div className="block-content">
             <h2>Contactez-moi</h2>
             <p>
-              Je serais ravi de pouvoir échanger avec vous ! Si vous avez des
-              questions, souhaitez discuter d'un projet ou tout simplement
-              partager des idées, n'hésitez pas à me contacter par e-mail à
-              l'adresse suivante : <a href={`mailto:${email}`}>{email}</a>.
+              Si vous avez des questions, souhaitez discuter d'un projet ou tout
+              simplement partager des idées, n'hésitez pas à me contacter par
+              e-mail à l'adresse suivante :{' '}
+              <a href={`mailto:${email}`}>{email}</a>.
             </p>
             <p>
               Je m'efforce de répondre rapidement, vous recevrez donc une

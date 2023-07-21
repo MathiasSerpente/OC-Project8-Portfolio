@@ -1,0 +1,230 @@
+.container-project {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 100px;
+}
+
+.project {
+  width: 100%;
+}
+
+.project .block-content-container {
+  width: 100%;
+  background-color: #323232;
+  color: #fff;
+}
+
+.project .block-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.description-project {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ndtc-project {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.nd-project {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 20px;
+  border-bottom: solid 3px #9179ef;
+}
+
+.name-project {
+  font-size: 36px;
+}
+
+.date-project {
+  font-size: 14px;
+}
+
+.tc-project {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.title-project {
+  width: 100%;
+  font-size: 18px;
+}
+
+.context-project {
+  width: 100%;
+  font-size: 18px;
+}
+
+.technos-repository-project {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.technos-project {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.techno-container {
+  min-width: 80px;
+  height: 30px;
+  background-color: #6b5ca4;
+  border: solid 3px #9179ef;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.techno {
+  font-size: 16px;
+}
+
+.repository-project {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link-repository-project {
+  display: block;
+}
+
+.logo-github-project {
+  width: 50px;
+}
+
+.collapses-project {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 2fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container-project {
+    padding: 0 20px;
+  }
+
+  .description-project {
+    flex-direction: column;
+  }
+
+  .ndtc-project {
+    width: 100%;
+  }
+
+  .name-project {
+    font-size: 24px;
+  }
+
+  .date-project {
+    font-size: 12px;
+  }
+
+  .title-project {
+    font-size: 16px;
+  }
+
+  .context-project {
+    font-size: 16px;
+  }
+
+  .technos-repository-project {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .technos-project {
+    width: 70%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .techno-container {
+    min-width: 70px;
+    height: 25px;
+  }
+
+  .techno {
+    font-size: 14px;
+  }
+
+  .repository-project {
+    width: 25%;
+  }
+
+  .logo-github-project {
+    width: 45px;
+  }
+
+  .collapses-project {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .name-project {
+    font-size: 18px;
+  }
+
+  .date-project {
+    font-size: 12px;
+  }
+
+  .title-project {
+    font-size: 14px;
+  }
+
+  .context-project {
+    font-size: 14px;
+  }
+
+  .techno-container {
+    min-width: 60px;
+    height: 20px;
+  }
+
+  .techno {
+    font-size: 12px;
+  }
+
+  .logo-github-project {
+    width: 40px;
+  }
+}

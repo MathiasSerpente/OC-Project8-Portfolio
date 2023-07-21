@@ -7,7 +7,7 @@ import {
   ExpressLogo,
 } from '../assets/images/skills';
 
-export const skillsList = [
+export const technosList = [
   {
     id: '1',
     name: 'HTML',

@@ -1,7 +1,7 @@
 import './style.css';
 import { useEffect } from 'react';
-import BlockUp from '../../components/BlockUp';
-import BlockDown from '../../components/BlockDown';
+import Card from '../../components/Card';
+import { projectsList } from '../../datas/projectsList';
 
 function Achievements() {
   useEffect(() => {
@@ -10,11 +10,17 @@ function Achievements() {
 
   return (
     <main className="container-achievements">
-      <section className="achievements">
-        <BlockUp />
-        <div className="block-content-container"></div>
-        <BlockDown />
-      </section>
+      <ul className="gallery">
+        {projectsList.map((e) => (
+          <Card
+            key={e.id}
+            id={e.id}
+            project={e.project}
+            banner={e.banner}
+            logo={e.logo}
+          />
+        ))}
+      </ul>
     </main>
   );
 }

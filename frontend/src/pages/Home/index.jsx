@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import BlockUp from '../../components/BlockUp';
 import BlockDown from '../../components/BlockDown';
 import CardST from '../../components/Card-ST';
-import { skillsList } from '../../datas/skillsList';
+import { technosList } from '../../datas/technosList';
 import { toolsList } from '../../datas/toolsList';
 
 function Home() {
@@ -45,9 +45,9 @@ function Home() {
         <BlockUp />
         <div className="block-content-container">
           <div className="block-content">
-            <h2>Compétences</h2>
+            <h2>Mes technos</h2>
             <ul className="skills-container">
-              {skillsList.map((e) => (
+              {technosList.map((e) => (
                 <CardST key={e.id} name={e.name} picture={e.picture} />
               ))}
             </ul>
@@ -59,7 +59,7 @@ function Home() {
         <BlockUp />
         <div className="block-content-container">
           <div className="block-content">
-            <h2>Outils</h2>
+            <h2>Mes outils</h2>
             <div className="tools-container">
               {toolsList.map((e) => (
                 <CardST key={e.id} name={e.name} picture={e.picture} />
