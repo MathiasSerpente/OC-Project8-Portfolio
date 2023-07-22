@@ -1,5 +1,4 @@
 {
-  "homepage": "https://mathiasserpente.github.io/OC-Project8-Portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -40,5 +39,6 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  }
+  },
+  "homepage": "https://mathiasserpente.github.io/OC-Project8-Portfolio/"
 }
