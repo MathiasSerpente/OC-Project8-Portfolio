@@ -102,7 +102,7 @@ export const projectsList = [
   },
   {
     id: '2',
-    name: "Sophie Bluel - Architècte d'intérieur",
+    name: 'Sophie Bluel',
     banner: SophieBanner,
     logo: SophieLogo,
     date: '2023',
@@ -143,7 +143,7 @@ export const projectsList = [
   },
   {
     id: '3',
-    name: 'Menu Maker by Qwenta',
+    name: 'Menu Maker',
     banner: QwentaBanner,
     logo: QwentaLogo,
     date: '2023',
@@ -199,7 +199,7 @@ export const projectsList = [
   },
   {
     id: '4',
-    name: 'Nina Carducci - Photographe',
+    name: 'Nina Carducci',
     banner: NinaBanner,
     logo: NinaLogo,
     date: '2023',
