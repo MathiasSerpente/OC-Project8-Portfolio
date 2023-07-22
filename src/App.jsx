@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/OC-Project8-Portfolio/" element={<Home />} />
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/project/:id" element={<Project />} />
         <Route path="/contact" element={<Contact />} />

@@ -14,7 +14,7 @@ function Header() {
   return (
     <header>
       <div>
-        <Link className="link-logo-header" to="/">
+        <Link className="link-logo-header" to="/OC-Project8-Portfolio/">
           <img className="logo" src={Logo} alt="Logo M" />
         </Link>
       </div>
@@ -22,9 +22,9 @@ function Header() {
         <div className="links-container-header">
           <Link
             className={`nav-link-header ${
-              location.pathname === '/' && 'active'
+              location.pathname === '/OC-Project8-Portfolio/' && 'active'
             }`}
-            to="/"
+            to="/OC-Project8-Portfolio/"
           >
             Accueil
           </Link>
@@ -48,15 +48,15 @@ function Header() {
         <div className="links-icons-container-header">
           <Link
             className={`nav-link-icon-header ${
-              location.pathname === '/' && 'active'
+              location.pathname === '/OC-Project8-Portfolio/' && 'active'
             }`}
-            to="/"
+            to="/OC-Project8-Portfolio/"
             onMouseEnter={() => handleItemHover('house')}
             onMouseLeave={() => handleItemHover('')}
           >
             <i
               className={`fa-solid fa-house ${
-                location.pathname !== '/' &&
+                location.pathname !== '/OC-Project8-Portfolio/' &&
                 hoveredItem === 'house' &&
                 'fa-beat'
               }`}
