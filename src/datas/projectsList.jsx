@@ -159,7 +159,7 @@ export const projectsList = [
       Qwenta8,
       Qwenta9,
     ],
-    repository: '',
+    repository: 'https://github.com/MathiasSerpente',
     title: "Planification du développement d'un site en méthode Agile",
     context: 'Formation : Développeur Web chez OpenClassrooms - Projet 4/8',
     description: {
