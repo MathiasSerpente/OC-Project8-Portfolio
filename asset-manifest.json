@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OC-Project8-Portfolio/static/css/main.fec15bfb.css",
-    "main.js": "/OC-Project8-Portfolio/static/js/main.fe44fa9c.js",
+    "main.js": "/OC-Project8-Portfolio/static/js/main.83743087.js",
     "static/media/nina-3.webp": "/OC-Project8-Portfolio/static/media/nina-3.5f871b0dd3c8a456d84e.webp",
     "static/media/qwenta-9.webp": "/OC-Project8-Portfolio/static/media/qwenta-9.b0ed386f43ea7fec3d40.webp",
     "static/media/sophie-2.webp": "/OC-Project8-Portfolio/static/media/sophie-2.5969893ae105f97cce6e.webp",
@@ -47,9 +47,9 @@
     "static/media/postman.svg": "/OC-Project8-Portfolio/static/media/postman.e65afafee644ce9fe8a727d01b403189.svg",
     "static/media/yarn.svg": "/OC-Project8-Portfolio/static/media/yarn.10aa87f8bb233ee6d7f39234d0fd3360.svg",
     "static/media/lighthouse.svg": "/OC-Project8-Portfolio/static/media/lighthouse.8e469c5271498271e557714b00348fab.svg",
+    "index.html": "/OC-Project8-Portfolio/index.html",
     "static/media/react.svg": "/OC-Project8-Portfolio/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
     "static/media/node.svg": "/OC-Project8-Portfolio/static/media/node.615ffbea9529ca7047ed8a912bfd94b2.svg",
-    "index.html": "/OC-Project8-Portfolio/index.html",
     "static/media/notion.svg": "/OC-Project8-Portfolio/static/media/notion.ef72a137050ceb49647c94af9379f432.svg",
     "static/media/github-9179ef.svg": "/OC-Project8-Portfolio/static/media/github-9179ef.73af9cec2ec3cee9261586abaf4215c8.svg",
     "static/media/mongo.svg": "/OC-Project8-Portfolio/static/media/mongo.1aca075d5cce0819fea7ea0902d94ce4.svg",
@@ -67,10 +67,10 @@
     "static/media/previous-carousel.svg": "/OC-Project8-Portfolio/static/media/previous-carousel.e24accd98b7d6d4f97a07c6a744d9f6c.svg",
     "static/media/npm.svg": "/OC-Project8-Portfolio/static/media/npm.417a4600fe23daee76adc123beb08fb4.svg",
     "main.fec15bfb.css.map": "/OC-Project8-Portfolio/static/css/main.fec15bfb.css.map",
-    "main.fe44fa9c.js.map": "/OC-Project8-Portfolio/static/js/main.fe44fa9c.js.map"
+    "main.83743087.js.map": "/OC-Project8-Portfolio/static/js/main.83743087.js.map"
   },
   "entrypoints": [
     "static/css/main.fec15bfb.css",
-    "static/js/main.fe44fa9c.js"
+    "static/js/main.83743087.js"
   ]
 }
