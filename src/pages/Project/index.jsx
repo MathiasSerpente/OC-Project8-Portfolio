@@ -23,7 +23,7 @@ function Project() {
   }, [project.name]);
 
   if (!project) {
-    return <Navigate to="/OC-Project8-Portfolio/error" />;
+    return <Navigate to="/error" />;
   }
 
   return (

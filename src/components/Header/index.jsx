@@ -30,18 +30,17 @@ function Header() {
           </Link>
           <Link
             className={`nav-link-header ${
-              location.pathname === '/OC-Project8-Portfolio/achievements' &&
-              'active'
+              location.pathname === '/achievements' && 'active'
             }`}
-            to="/OC-Project8-Portfolio/achievements"
+            to="/achievements"
           >
             Réalisations
           </Link>
           <Link
             className={`nav-link-header ${
-              location.pathname === '/OC-Project8-Portfolio/contact' && 'active'
+              location.pathname === '/contact' && 'active'
             }`}
-            to="/OC-Project8-Portfolio/contact"
+            to="/contact"
           >
             Contact
           </Link>
@@ -65,16 +64,15 @@ function Header() {
           </Link>
           <Link
             className={`nav-link-icon-header ${
-              location.pathname === '/OC-Project8-Portfolio/achievements' &&
-              'active'
+              location.pathname === '/achievements' && 'active'
             }`}
-            to="/OC-Project8-Portfolio/achievements"
+            to="/achievements"
             onMouseEnter={() => handleItemHover('laptop')}
             onMouseLeave={() => handleItemHover('')}
           >
             <i
               className={`fa-solid fa-laptop-code ${
-                location.pathname !== '/OC-Project8-Portfolio/achievements' &&
+                location.pathname !== '/achievements' &&
                 hoveredItem === 'laptop' &&
                 'fa-bounce'
               }`}
@@ -82,15 +80,15 @@ function Header() {
           </Link>
           <Link
             className={`nav-link-icon-header ${
-              location.pathname === '/OC-Project8-Portfolio/contact' && 'active'
+              location.pathname === '/contact' && 'active'
             }`}
-            to="/OC-Project8-Portfolio/contact"
+            to="/contact"
             onMouseEnter={() => handleItemHover('envelope')}
             onMouseLeave={() => handleItemHover('')}
           >
             <i
               className={`fa-solid fa-envelope ${
-                location.pathname !== '/OC-Project8-Portfolio/contact' &&
+                location.pathname !== '/contact' &&
                 hoveredItem === 'envelope' &&
                 'fa-flip'
               }`}
