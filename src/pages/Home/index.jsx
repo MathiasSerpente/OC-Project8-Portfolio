@@ -60,11 +60,11 @@ function Home() {
         <div className="block-content-container">
           <div className="block-content">
             <h2>Mes outils</h2>
-            <div className="tools-container">
+            <ul className="tools-container">
               {toolsList.map((e) => (
                 <CardST key={e.id} name={e.name} picture={e.picture} />
               ))}
-            </div>
+            </ul>
           </div>
         </div>
         <BlockDown />
@@ -74,36 +74,3 @@ function Home() {
 }
 
 export default Home;
-
-/* <li className="skill">
-                <img className="skill-logo" src={HtmlLogo} alt="Logo HTML" />
-                <span className="skill-name">HTML</span>
-              </li>
-              <li className="skill">
-                <img className="skill-logo" src={CssLogo} alt="Logo CSS" />
-                <span className="skill-name">CSS</span>
-              </li>
-              <li className="skill">
-                <img
-                  className="skill-logo"
-                  src={JavascriptLogo}
-                  alt="Logo Javascript"
-                />
-                <span className="skill-name">Javascript</span>
-              </li>
-              <li className="skill">
-                <img className="skill-logo" src={ReactLogo} alt="Logo React" />
-                <span className="skill-name">React.js</span>
-              </li>
-              <li className="skill">
-                <img className="skill-logo" src={NodeLogo} alt="Logo Node" />
-                <span className="skill-name">Node.js</span>
-              </li>
-              <li className="skill">
-                <img
-                  className="skill-logo"
-                  src={ExpressLogo}
-                  alt="Logo Express"
-                />
-                <span className="skill-name">Express.js</span>
-              </li> */

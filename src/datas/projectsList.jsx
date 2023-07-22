@@ -78,7 +78,7 @@ export const projectsList = [
       title: 'Description',
       content: [
         "Ce projet est une initiation aux langages HTML et CSS, ainsi qu'à plusieurs outils tels que VSCode, Git, GitHub et Figma.",
-        "On découvre également les documents des 'Spécification fonctionnelles' et des 'Spécification techniques'.",
+        "On découvre également les documents des 'Spécifications fonctionnelles' et des 'Spécifications techniques'.",
         "L'objetif est de créer une page web statique et responsive qui respecte les maquettes Figma fournies",
       ],
     },
@@ -116,7 +116,7 @@ export const projectsList = [
       class: 'collapse-description',
       title: 'Description',
       content: [
-        'Ce projet est une initiation à JavaScript permettant de découvrir la Notion de Kanban ainsi que la communication entre le back-end et le front-end notamment avec les requêtes CRUD.',
+        'Ce projet est une initiation à JavaScript permettant de découvrir la notion de Kanban ainsi que la communication entre le back-end et le front-end notamment avec les requêtes CRUD.',
         "L'objectif est de rendre dynamique le site portfolio d'une architecte d'intérieur en lui permettant de se connecter au site afin d'accéder à la gestion de ses projets via une modale.",
       ],
     },
@@ -127,7 +127,7 @@ export const projectsList = [
       content: [
         'Manipuler les éléments du DOM avec JavaScript',
         'Récupérer les données utilisateurs dans le JavaScript via des formulaires',
-        'Gérer les événements utilisateurs avec JavaScript',
+        'Gérer les évènements utilisateurs avec JavaScript',
       ],
     },
     resources: {
@@ -168,9 +168,9 @@ export const projectsList = [
       title: 'Description',
       content: [
         "Ce projet permet de découvrir la planification d'un projet en méthode Agile.",
-        'On y découvre donc énormément de choses, notamment : la méthode Agile et plus particulièrement SCRUM, les outils de gestions de projet, les outils de curation...',
-        "L'objectif est de réparer et planifier le projet de développement du site Menu Maker. Pour cela il faut : remplir le documents des spécifications techniques, préparer une veille informationnelle sur les technos sélectionnées pour l'équipe et bien sur de planifier/organiser le projet (notamment en créant des User stories et un Kanban et) sur un outil comme Notion.",
-        "Le projet ne présente pas de code spécifique, mais il offre l'opportunité de découvrir et de comprendre les pratiques de travail du milieu professionnel.",
+        'On y découvre donc énormément de choses, notamment : la méthode Agile et plus particulièrement Scrum, les outils de gestion de projet, les outils de curation...',
+        "L'objectif est de planifier le projet de développement du site Menu Maker. Pour cela il faut : remplir le document des spécifications techniques, préparer une veille informationnelle sur les technos sélectionnées pour l'équipe et bien sûr de planifier/organiser le projet en utilisant un outil comme Notion.",
+        "Le projet ne présente pas de code spécifique, mais il offre l'opportunité de découvrir et de comprendre les pratiques du milieu professionnel.",
       ],
     },
     skills: {
@@ -213,9 +213,9 @@ export const projectsList = [
       class: 'collapse-description',
       title: 'Description',
       content: [
-        "Ce projet permet de découvrir plusieurs notions essentielles d'optimisation telles que l'accessibilité, le SEO, les performances ainsi que le débuggage en utilisant les Chrome Dev Tools",
+        "Ce projet permet de découvrir plusieurs notions essentielles d'optimisation telles que l'accessibilité, le SEO, les performances ainsi que le débuggage en utilisant les Chrome DevTools",
         "L'objectif est de corriger les problèmes relevés par Lighthouse lors de l'audit, afin que les scores soit au minimum de 90 dans chaque catégorie. Il y a également des bugs à corriger pour que le site fonctionne correctement.",
-        "On découvre donc notamment l'importance d'optimiser le contenu (format, compression, résolution, ...) et le code (factorisation, minification, optimisation du chargement, ...) pour les performances, d'améliorer le SEO (avec les balises meta pour les réseaux sociaux, les données structurées, ...) ainsi que d'assurer un bonne accéssibilité (avec les atttibuts HTML 'alt' et 'aria', le contraste, ...).",
+        "On découvre donc notamment l'importance d'optimiser le contenu (format, compression, résolution...) et le code (factorisation, minification, optimisation du chargement...) pour les performances, d'améliorer le SEO (avec les balises meta pour les réseaux sociaux, les données structurées...) ainsi que d'assurer un bonne accessibilité (avec les attributs HTML 'alt' et 'aria', le contraste, ...).",
       ],
     },
     skills: {
@@ -255,8 +255,8 @@ export const projectsList = [
       class: 'collapse-description',
       title: 'Description',
       content: [
-        "Ce projet permet de découvrir React, sa logique de fonctionnement en composants réutilisables, les 'props' pour faire ciculer les données des composants parrents vers les composants enfants, son intérêt en terme de performances grâce au DOM virtuel ou encore encore la richesse de son écosystème qui comprend une multitude d'outils et de bibliothèques complémentaires",
-        "Notamment React Router que j'ai utilisé pour créer les différente pages de l'application ainsi que les liens entre elles.",
+        "Ce projet permet de découvrir React, sa logique de fonctionnement en composants réutilisables, les 'props' pour faire ciculer les données des composants parents vers les composants enfants, son intérêt en terme de performances grâce au DOM virtuel ou encore encore la richesse de son écosystème qui comprend une multitude d'outils et de bibliothèques complémentaires.",
+        "Notamment React Router que j'ai utilisé pour créer les différentes pages de l'application ainsi que les liens entre elles.",
         "L'objectif est de développer en React la partie front-end d'une application de location de logements entre particuliers. Le back-end n'étant, dans le scénario, pas terminé, les données sont stockées dans un fichier JSON.",
         "Ce projet m'a beaucoup inspiré dans la conception fonctionnelle de ce portfolio.",
       ],
@@ -299,8 +299,8 @@ export const projectsList = [
       class: 'collapse-description',
       title: 'Description',
       content: [
-        "Ce projet permet de découvrir Node.js et Express.js que l'on utilise pour développer back-end d'un site de notation de livre dont le front-end est développé en React.",
-        "L'ojectif et de créer une base de donnée MongoDB et une API qui la fasse correspondre avec le front-end en gérant les requêtes CRUD qui en émanent. Les utilisateurs doivent pouvoir créer un compte, se connecter, créer/modifier/supprimer des livres et noter ceux des autres utilisateurs.",
+        "Ce projet permet de découvrir Node.js et Express.js, que l'on utilise pour développer back-end d'un site de notation de livres dont le front-end est développé en React.",
+        "L'ojectif est de créer une base de données MongoDB et une API qui la fasse correspondre avec le front-end en gérant les requêtes CRUD. Les utilisateurs doivent pouvoir créer un compte, se connecter, créer/modifier/supprimer leurs livres et noter ceux créés par les autres utilisateurs.",
         "La gestion des images doit être optimisée (résolution, format, compression, suppression des images inutilisées sur le serveur) afin que l'application respecte le Green Code.",
       ],
     },
