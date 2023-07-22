@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OC-Project8-Portfolio/static/css/main.fec15bfb.css",
-    "main.js": "/OC-Project8-Portfolio/static/js/main.3fef6996.js",
+    "main.js": "/OC-Project8-Portfolio/static/js/main.c03c6061.js",
     "static/media/nina-3.webp": "/OC-Project8-Portfolio/static/media/nina-3.5f871b0dd3c8a456d84e.webp",
     "static/media/qwenta-9.webp": "/OC-Project8-Portfolio/static/media/qwenta-9.b0ed386f43ea7fec3d40.webp",
     "static/media/sophie-2.webp": "/OC-Project8-Portfolio/static/media/sophie-2.5969893ae105f97cce6e.webp",
@@ -67,10 +67,10 @@
     "static/media/previous-carousel.svg": "/OC-Project8-Portfolio/static/media/previous-carousel.e24accd98b7d6d4f97a07c6a744d9f6c.svg",
     "static/media/npm.svg": "/OC-Project8-Portfolio/static/media/npm.417a4600fe23daee76adc123beb08fb4.svg",
     "main.fec15bfb.css.map": "/OC-Project8-Portfolio/static/css/main.fec15bfb.css.map",
-    "main.3fef6996.js.map": "/OC-Project8-Portfolio/static/js/main.3fef6996.js.map"
+    "main.c03c6061.js.map": "/OC-Project8-Portfolio/static/js/main.c03c6061.js.map"
   },
   "entrypoints": [
     "static/css/main.fec15bfb.css",
-    "static/js/main.3fef6996.js"
+    "static/js/main.c03c6061.js"
   ]
 }
