@@ -79,7 +79,7 @@ export const projectsList = [
       content: [
         "Ce projet est une initiation aux langages HTML et CSS, ainsi qu'à plusieurs outils tels que VSCode, Git, GitHub et Figma.",
         "On découvre également les documents des 'Spécifications fonctionnelles' et des 'Spécifications techniques'.",
-        "L'objetif est de créer une page web statique et responsive qui respecte les maquettes Figma fournies",
+        "L'objetif est de créer une page web statique et responsive qui respecte la maquette Figma fournie.",
       ],
     },
     skills: {
@@ -215,7 +215,7 @@ export const projectsList = [
       content: [
         "Ce projet permet de découvrir plusieurs notions essentielles d'optimisation telles que l'accessibilité, le SEO, les performances ainsi que le débuggage en utilisant les Chrome DevTools",
         "L'objectif est de corriger les problèmes relevés par Lighthouse lors de l'audit, afin que les scores soit au minimum de 90 dans chaque catégorie. Il y a également des bugs à corriger pour que le site fonctionne correctement.",
-        "On découvre donc notamment l'importance d'optimiser le contenu (format, compression, résolution...) et le code (factorisation, minification, optimisation du chargement...) pour les performances, d'améliorer le SEO (avec les balises meta pour les réseaux sociaux, les données structurées...) ainsi que d'assurer un bonne accessibilité (avec les attributs HTML 'alt' et 'aria', le contraste, ...).",
+        "On découvre donc notamment l'importance d'optimiser le contenu (format, compression, résolution...) et le code (factorisation, minification, optimisation du chargement...) pour les performances, d'améliorer le SEO (avec les balises meta pour les réseaux sociaux, les données structurées...) ainsi que d'assurer une bonne accessibilité (avec les attributs HTML 'alt' et 'aria', le contraste...).",
       ],
     },
     skills: {
@@ -255,7 +255,7 @@ export const projectsList = [
       class: 'collapse-description',
       title: 'Description',
       content: [
-        "Ce projet permet de découvrir React, sa logique de fonctionnement en composants réutilisables, les 'props' pour faire ciculer les données des composants parents vers les composants enfants, son intérêt en terme de performances grâce au DOM virtuel ou encore encore la richesse de son écosystème qui comprend une multitude d'outils et de bibliothèques complémentaires.",
+        "Ce projet permet de découvrir React, sa logique de fonctionnement en composants réutilisables, les 'props' pour faire ciculer les données des composants parents vers les composants enfants, son intérêt en terme de performances grâce au DOM virtuel ou encore la richesse de son écosystème qui comprend une multitude d'outils et de bibliothèques complémentaires.",
         "Notamment React Router que j'ai utilisé pour créer les différentes pages de l'application ainsi que les liens entre elles.",
         "L'objectif est de développer en React la partie front-end d'une application de location de logements entre particuliers. Le back-end n'étant, dans le scénario, pas terminé, les données sont stockées dans un fichier JSON.",
         "Ce projet m'a beaucoup inspiré dans la conception fonctionnelle de ce portfolio.",
@@ -299,7 +299,7 @@ export const projectsList = [
       class: 'collapse-description',
       title: 'Description',
       content: [
-        "Ce projet permet de découvrir Node.js et Express.js, que l'on utilise pour développer back-end d'un site de notation de livres dont le front-end est développé en React.",
+        "Ce projet permet de découvrir Node.js et Express.js, que l'on utilise pour développer le back-end d'un site de notation de livres dont le front-end est développé en React.",
         "L'ojectif est de créer une base de données MongoDB et une API qui la fasse correspondre avec le front-end en gérant les requêtes CRUD. Les utilisateurs doivent pouvoir créer un compte, se connecter, créer/modifier/supprimer leurs livres et noter ceux créés par les autres utilisateurs.",
         "La gestion des images doit être optimisée (résolution, format, compression, suppression des images inutilisées sur le serveur) afin que l'application respecte le Green Code.",
       ],
