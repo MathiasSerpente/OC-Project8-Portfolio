@@ -1,4 +1,5 @@
 import './style.css';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/images/logo/logo-64x38.png';
 
 function Footer() {
@@ -6,7 +7,9 @@ function Footer() {
     <footer>
       <div className="footer-container">
         <div>
-          <img src={Logo} alt="Logo M" />
+          <Link to="/OC-Project8-Portfolio/">
+            <img src={Logo} alt="Logo M" />
+          </Link>
         </div>
         <p>
           2023 <span>|</span> Mathias Serpente

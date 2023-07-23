@@ -34,13 +34,11 @@ function Carousel(props) {
       onMouseEnter={hoverTrue}
       onMouseLeave={hoverFalse}
     >
-      <a className="link-img-carousel" href={props.pictures[currentImageIndex]}>
-        <img
-          className="img-carousel"
-          src={props.pictures[currentImageIndex]}
-          alt={`${props.name}-${props.id}`}
-        />
-      </a>
+      <img
+        className="img-carousel"
+        src={props.pictures[currentImageIndex]}
+        alt={`${props.name}-${props.id}`}
+      />
       {props.pictures.length > 1 ? (
         <div className="container-btn-carousel">
           <button

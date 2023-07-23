@@ -9,13 +9,6 @@
   transition: opacity 0.7s ease;
 }
 
-.link-img-carousel {
-  position: absolute;
-  width: 100%;
-  display: block;
-  cursor: zoom-in;
-}
-
 .img-carousel {
   object-fit: contain;
   width: 100%;

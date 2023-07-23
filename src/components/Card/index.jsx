@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Card(props) {
   return (
-    <Link to={`/project/${props.id}`} className="card">
+    <Link to={`/OC-Project8-Portfolio/project/${props.id}`} className="card">
       <BlockUp />
       <div className="card-content">
         <img

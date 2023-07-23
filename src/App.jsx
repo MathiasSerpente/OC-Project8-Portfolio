@@ -14,10 +14,16 @@ function App() {
       <Header />
       <Routes>
         <Route path="/OC-Project8-Portfolio/" element={<Home />} />
-        <Route path="/achievements" element={<Achievements />} />
-        <Route path="/project/:id" element={<Project />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/error" element={<Error />} />
+        <Route
+          path="/OC-Project8-Portfolio/achievements"
+          element={<Achievements />}
+        />
+        <Route
+          path="/OC-Project8-Portfolio/project/:id"
+          element={<Project />}
+        />
+        <Route path="/OC-Project8-Portfolio/contact" element={<Contact />} />
+        <Route path="/OC-Project8-Portfolio/error" element={<Error />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
