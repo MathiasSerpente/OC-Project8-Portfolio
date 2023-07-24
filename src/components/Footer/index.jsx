@@ -7,7 +7,7 @@ function Footer() {
     <footer>
       <div className="footer-container">
         <div>
-          <Link to="/OC-Project8-Portfolio/">
+          <Link to="/">
             <img src={Logo} alt="Logo M" />
           </Link>
         </div>

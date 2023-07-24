@@ -18,7 +18,7 @@ function Error() {
           <div className="message-error">
             La page que vous demandez n'existe pas.
           </div>
-          <Link className="link-error" to="/OC-Project8-Portfolio/">
+          <Link className="link-error" to="/">
             Retourner sur la page d’accueil
           </Link>
         </div>

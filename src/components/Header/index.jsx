@@ -14,7 +14,7 @@ function Header() {
   return (
     <header>
       <div>
-        <Link className="link-logo-header" to="/OC-Project8-Portfolio/">
+        <Link className="link-logo-header" to="/">
           <img className="logo" src={Logo} alt="Logo M" />
         </Link>
       </div>
@@ -22,26 +22,25 @@ function Header() {
         <div className="links-container-header">
           <Link
             className={`nav-link-header ${
-              location.pathname === '/OC-Project8-Portfolio/' && 'active'
+              location.pathname === '/' && 'active'
             }`}
-            to="/OC-Project8-Portfolio/"
+            to="/"
           >
             Accueil
           </Link>
           <Link
             className={`nav-link-header ${
-              location.pathname === '/OC-Project8-Portfolio/achievements' &&
-              'active'
+              location.pathname === '/achievements' && 'active'
             }`}
-            to="/OC-Project8-Portfolio/achievements"
+            to="/achievements"
           >
             Réalisations
           </Link>
           <Link
             className={`nav-link-header ${
-              location.pathname === '/OC-Project8-Portfolio/contact' && 'active'
+              location.pathname === '/contact' && 'active'
             }`}
-            to="/OC-Project8-Portfolio/contact"
+            to="/contact"
           >
             Contact
           </Link>
@@ -49,15 +48,15 @@ function Header() {
         <div className="links-icons-container-header">
           <Link
             className={`nav-link-icon-header ${
-              location.pathname === '/OC-Project8-Portfolio/' && 'active'
+              location.pathname === '/' && 'active'
             }`}
-            to="/OC-Project8-Portfolio/"
+            to="/"
             onMouseEnter={() => handleItemHover('house')}
             onMouseLeave={() => handleItemHover('')}
           >
             <i
               className={`fa-solid fa-house ${
-                location.pathname !== '/OC-Project8-Portfolio/' &&
+                location.pathname !== '/' &&
                 hoveredItem === 'house' &&
                 'fa-beat'
               }`}
@@ -65,16 +64,15 @@ function Header() {
           </Link>
           <Link
             className={`nav-link-icon-header ${
-              location.pathname === '/OC-Project8-Portfolio/achievements' &&
-              'active'
+              location.pathname === '/achievements' && 'active'
             }`}
-            to="/OC-Project8-Portfolio/achievements"
+            to="/achievements"
             onMouseEnter={() => handleItemHover('laptop')}
             onMouseLeave={() => handleItemHover('')}
           >
             <i
               className={`fa-solid fa-laptop-code ${
-                location.pathname !== '/OC-Project8-Portfolio/achievements' &&
+                location.pathname !== '/achievements' &&
                 hoveredItem === 'laptop' &&
                 'fa-bounce'
               }`}
@@ -82,15 +80,15 @@ function Header() {
           </Link>
           <Link
             className={`nav-link-icon-header ${
-              location.pathname === '/OC-Project8-Portfolio/contact' && 'active'
+              location.pathname === '/contact' && 'active'
             }`}
-            to="/OC-Project8-Portfolio/contact"
+            to="/contact"
             onMouseEnter={() => handleItemHover('envelope')}
             onMouseLeave={() => handleItemHover('')}
           >
             <i
               className={`fa-solid fa-envelope ${
-                location.pathname !== '/OC-Project8-Portfolio/contact' &&
+                location.pathname !== '/contact' &&
                 hoveredItem === 'envelope' &&
                 'fa-flip'
               }`}
