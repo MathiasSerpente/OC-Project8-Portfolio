@@ -19,7 +19,7 @@ function App() {
           element={<Achievements />}
         />
         <Route
-          path="/OC-Project8-Portfolio/project/:id"
+          path="/OC-Project8-Portfolio/achievements/project/:id"
           element={<Project />}
         />
         <Route path="/OC-Project8-Portfolio/contact" element={<Contact />} />

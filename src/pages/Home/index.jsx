@@ -5,6 +5,7 @@ import BlockDown from '../../components/BlockDown';
 import CardST from '../../components/Card-ST';
 import { technosList } from '../../datas/technosList';
 import { toolsList } from '../../datas/toolsList';
+import LogoGitHub from '../../assets/images/tools/github-9179ef.svg';
 
 function Home() {
   useEffect(() => {
@@ -37,6 +38,17 @@ function Home() {
               mes compétences nouvellement acquises en contribuant à des projets
               passionnants.
             </p>
+            <a
+              href="https://github.com/MathiasSerpente"
+              className="btn-link-gh-presentation"
+            >
+              <p className="legend-logo-github-presentation">Mon GitHub</p>
+              <img
+                className="logo-github-presentation"
+                src={LogoGitHub}
+                alt="Lien GitHub"
+              />
+            </a>
           </div>
         </div>
         <BlockDown />

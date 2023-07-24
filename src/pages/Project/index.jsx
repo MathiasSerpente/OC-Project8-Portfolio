@@ -3,10 +3,10 @@ import { useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import BlockUp from '../../components/BlockUp';
 import BlockDown from '../../components/BlockDown';
-import { projectsList } from '../../datas/projectsList';
-import LogoGitHub from '../../assets/images/tools/github-9179ef.svg';
 import Carousel from '../../components/Carousel';
 import Collapse from '../../components/Collaspe';
+import { projectsList } from '../../datas/projectsList';
+import LogoGitHub from '../../assets/images/tools/github-9179ef.svg';
 
 function Project() {
   const { id } = useParams();

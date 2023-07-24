@@ -46,6 +46,25 @@
   color: #a088fc;
 }
 
+.btn-link-gh-presentation {
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 3px #9179ef;
+  background-color: #424242;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.logo-github-presentation {
+  width: 50px;
+  margin-left: 10px;
+}
+
 .skills .block-content {
   width: 80%;
   margin: auto;
@@ -109,6 +128,14 @@
     font-size: 16px;
   }
 
+  .btn-link-gh-presentation {
+    width: 175px;
+  }
+
+  .logo-github-presentation {
+    width: 45px;
+  }
+
   .skills h2 {
     font-size: 24px;
     margin-bottom: 20px;
@@ -127,6 +154,15 @@
 
   .presentation p {
     font-size: 12px;
+  }
+
+  .btn-link-gh-presentation {
+    width: 150px;
+    align-self: center;
+  }
+
+  .logo-github-presentation {
+    width: 40px;
   }
 
   .skills h2 {
