@@ -23,6 +23,8 @@ function CardST(props) {
         className="card-st-logo"
         src={props.picture}
         alt={`Logo ${props.name}`}
+        width={50}
+        height={50}
       />
       <span className="card-st-name">{props.name}</span>
     </li>

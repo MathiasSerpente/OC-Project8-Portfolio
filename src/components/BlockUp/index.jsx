@@ -8,6 +8,8 @@ function BlockUp() {
         className="img-block-up"
         src={BlockUpImg}
         alt="Décoration bloc haut"
+        width={240}
+        height={64}
       />
     </div>
   );

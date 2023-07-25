@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-container">
         <div>
           <Link to="/">
-            <img src={Logo} alt="Logo M" />
+            <img src={Logo} alt="Logo M" width={64} height={38} />
           </Link>
         </div>
         <p>

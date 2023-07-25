@@ -47,6 +47,8 @@ function Home() {
                 className="logo-github-presentation"
                 src={LogoGitHub}
                 alt="Lien GitHub"
+                width={50}
+                height={50}
               />
             </a>
           </div>

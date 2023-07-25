@@ -54,12 +54,14 @@ header {
     padding: 20px;
   }
   .logo {
+    width: 122px;
     height: 73px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .logo {
+    width: 64px;
     height: 38px;
   }
 

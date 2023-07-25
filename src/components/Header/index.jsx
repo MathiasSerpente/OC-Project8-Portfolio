@@ -15,7 +15,13 @@ function Header() {
     <header>
       <div>
         <Link className="link-logo-header" to="/">
-          <img className="logo" src={Logo} alt="Logo M" />
+          <img
+            className="logo"
+            src={Logo}
+            alt="Logo M"
+            width={180}
+            height={108}
+          />
         </Link>
       </div>
       <nav>
@@ -53,6 +59,7 @@ function Header() {
             to="/"
             onMouseEnter={() => handleItemHover('house')}
             onMouseLeave={() => handleItemHover('')}
+            aria-label="Accueil"
           >
             <i
               className={`fa-solid fa-house ${
@@ -69,6 +76,7 @@ function Header() {
             to="/achievements"
             onMouseEnter={() => handleItemHover('laptop')}
             onMouseLeave={() => handleItemHover('')}
+            aria-label="Réalisations"
           >
             <i
               className={`fa-solid fa-laptop-code ${
@@ -85,6 +93,7 @@ function Header() {
             to="/contact"
             onMouseEnter={() => handleItemHover('envelope')}
             onMouseLeave={() => handleItemHover('')}
+            aria-label="Contact"
           >
             <i
               className={`fa-solid fa-envelope ${

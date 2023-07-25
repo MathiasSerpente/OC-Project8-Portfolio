@@ -8,6 +8,8 @@ function BlockDown() {
         className="img-block-down"
         src={BlockDownImg}
         alt="Décoration bloc bas"
+        width={240}
+        height={64}
       />
     </div>
   );
