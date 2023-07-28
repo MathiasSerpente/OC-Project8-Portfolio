@@ -10,12 +10,12 @@ function Card(props) {
       <div className="card-content">
         <img
           src={props.banner}
-          alt={`Bannière du projet ${props.project}`}
+          alt={`Bannière du projet ${props.name}`}
           className="banner-card"
         />
         <img
           src={props.logo}
-          alt={`Logo du projet ${props.project}`}
+          alt={`Logo du projet ${props.name}`}
           className="logo-card"
         />
       </div>

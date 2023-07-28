@@ -10,17 +10,17 @@ function Achievements() {
 
   return (
     <main className="container-achievements">
-      <ul className="gallery">
+      <div className="gallery">
         {projectsList.map((e) => (
           <Card
             key={e.id}
             id={e.id}
-            project={e.project}
+            name={e.name}
             banner={e.banner}
             logo={e.logo}
           />
         ))}
-      </ul>
+      </div>
     </main>
   );
 }
