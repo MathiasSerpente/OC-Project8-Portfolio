@@ -11,20 +11,23 @@ import LogoGitHub from '../../assets/images/tools/github-9179ef.svg';
 function Project() {
   const { id } = useParams();
   const project = projectsList.find((project) => project.id === id);
+
+  useEffect(() => {
+    if (project) {
+      document.title = `Projet ${project.name}`;
+    }
+  }, [project]);
+
+  if (!project) {
+    return <Navigate to="/error" />;
+  }
+
   const technosArray = project.technos;
   const collapsesContent = [
     project.description,
     project.skills,
     project.resources,
   ];
-
-  useEffect(() => {
-    document.title = `Projet ${project.name}`;
-  }, [project.name]);
-
-  if (!project) {
-    return <Navigate to="/error" />;
-  }
 
   return (
     <main className="container-project">
